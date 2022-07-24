@@ -50,13 +50,13 @@ This is an example of how you may give instructions on setting up your project l
 
 ## Prerequisites
 * Download all required module below
-* run with `python main.py`
+* run with `python dandi-p4Gx-python-4.py`
 
 * This Project using 4 local module:
   - ConnectSQL.py
   - buatTable.py
   - inputData.py
-  - main.py
+  - dandi-p4Gx-python-4.py
 * Make sure your system installed python 3.6 or more already
 * Make sure MySQL installed already
 
