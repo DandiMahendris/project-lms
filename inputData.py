@@ -141,7 +141,7 @@ def daftar_user():
 
     table_user = ConnectSQL.read_query(connection, query)
 
-    display(table_user)
+    print(table_user)
     
 
 def daftar_buku():
@@ -161,7 +161,7 @@ def daftar_buku():
         
     table_buku = ConnectSQL.read_query(connection, query)
 
-    display(table_buku)
+    print(table_buku)
 
     
 def daftar_peminjam():
@@ -181,7 +181,7 @@ def daftar_peminjam():
 
     table_peminjam = ConnectSQL.read_query(connection, query)  
 
-    display(table_peminjam)
+    print(table_peminjam)
 
     
 def cari_buku():
@@ -194,7 +194,7 @@ def cari_buku():
 
     table_buku = ConnectSQL.read_query_pencarian(connection, query, var_pinjam)
 
-    display(table_buku)
+    print(table_buku)
 
     
 def pengembalian():
