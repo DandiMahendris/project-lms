@@ -23,9 +23,10 @@
 
 <!-- About The Project -->
 ## About the Project
+### Library Management System for Digital Book Library
 
-## Username / discourseID
-dandi-p4Gx
+### Username / discourseID
+#### dandi-p4Gx
 
 ### Learning Objective
 * Membuat program LMS menggunakan Python
