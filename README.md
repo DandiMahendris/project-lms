@@ -49,6 +49,9 @@
 This is an example of how you may give instructions on setting up your project locally.
 
 ## Prerequisites
+* Download all required module below
+* run with `python main.py`
+
 * This Project using 4 local module:
   - ConnectSQL.py
   - buatTable.py
