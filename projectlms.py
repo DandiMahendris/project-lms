@@ -49,7 +49,7 @@ while not finished:
         inputData.daftar_buku()  # Input menampilkan daftar buku tersedia
         
     elif pilihan == 6:
-        inputData.daftar_peminjam  # Input menampilkan daftar peminjam
+        inputData.daftar_peminjam()  # Input menampilkan daftar peminjam
         
     elif pilihan == 7:  # Input untuk mencari buku
         inputData.cari_buku()

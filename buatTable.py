@@ -44,7 +44,7 @@ ConnectSQL.execute_query(connection, query_table_daftar_user)
 query_table_daftar_buku = """
 CREATE TABLE daftar_buku(
 	id_buku INT PRIMARY KEY,
-    nama_buku INT,
+    nama_buku VARCHAR(30),
 	kategori_buku VARCHAR(30),
     stok_buku INT 
 );
@@ -61,6 +61,7 @@ CREATE TABLE peminjam(
     nama_user VARCHAR(50),
     nama_buku VARCHAR(50),
     tanggal_pinjam DATE,
+    tanggal_pengembalian DATE,
     FOREIGN KEY (id_user) REFERENCES daftar_user(id_user) ON UPDATE CASCADE,
     FOREIGN KEY (id_buku) REFERENCES daftar_buku(id_buku) ON UPDATE CASCADE
 );
