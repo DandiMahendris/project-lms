@@ -22,11 +22,12 @@
 </details>
 
 <!-- About The Project -->
+### Username / discourseID
+--------- dandi-p4Gx --------------
+
+
 ## About the Project
 ### Library Management System for Digital Book Library
-
-### Username / discourseID
-#### dandi-p4Gx
 
 ### Learning Objective
 * Membuat program LMS menggunakan Python
