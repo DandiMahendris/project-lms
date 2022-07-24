@@ -24,6 +24,9 @@
 <!-- About The Project -->
 ## About the Project
 
+## Username / discourseID
+dandi-p4Gx
+
 ### Learning Objective
 * Membuat program LMS menggunakan Python
 * Membuat program python yang dapat terhubung ke database relational
@@ -44,6 +47,11 @@
 This is an example of how you may give instructions on setting up your project locally.
 
 ## Prerequisites
+* This Project using 4 local module:
+  - ConnectSQL.py
+  - buatTable.py
+  - inputData.py
+  - main.py
 * Make sure your system installed python 3.6 or more already
 * Make sure MySQL installed already
 
